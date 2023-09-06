@@ -1,3 +1,3 @@
 # DASPRO - JobSheet 2
 
- HEllo GitHub, ini adalah repository pertama saya 04.
+ HEllo GitHub, ini adalah repository pertama saya Aqsa Herry Prastyo 04, Prodi Teknik informatika
