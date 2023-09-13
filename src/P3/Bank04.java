@@ -24,6 +24,7 @@ public class Bank04 {
     System.out.println("Bunga adalah " +bunga);
     System.out.println("Jumlah tabungan akhir anda adalah " + jml_tabungan_akhir);
 
+    //Bank04 Done
 
 
   }
