@@ -17,7 +17,7 @@ System.out.println("Apakah saya pandai? " + isPandai);
 System.out.println("Jenis kelamain: " + jenisKelamin);
 System.out.println("Umurku saat ini: " + _umurSayaSekarang);
 System.out.println(String.format("saya beripk %s, dengan tinggi bandan %s", $ipk, tinggi));
-//Contoh variabel done
+//ContohVariabel Done
 
   }
 }
