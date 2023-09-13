@@ -7,7 +7,7 @@ public class PrakDaspro_1C_04 {
 System.out.println("Hello");
 System.out.println("wow");
 System.out.println("GG");
-
+System.out.println("man hold me up");
 
 
 
