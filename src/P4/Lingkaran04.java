@@ -23,7 +23,7 @@ luas = phi*r*r;
 System.out.println(keliling);
 System.out.println(luas);
 
-// Perbaikan kesalahan penulisan commit!.
+// Perbaikan kesalahan penulisan commit! 2X .
 
   }
 }
