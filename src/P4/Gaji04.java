@@ -18,6 +18,7 @@ jmlTdkMasuk = input.nextInt();
 TotGaji = (jmlMasuk*gaji)-(jmlMasuk*potGaji);
 
 System.out.println("Gaji yang anda terima adalah: " + TotGaji);
+// ini percobaan 2
   }
 
 }
