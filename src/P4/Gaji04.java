@@ -5,15 +5,19 @@ import java.util.Scanner;
 public class Gaji04 {
   
 public static void main(String[] args) {
-  Scanner input = new Scanner(System.in);
+  Scanner input04 = new Scanner(System.in);
   
 int jmlMasuk, jmlTdkMasuk, TotGaji;
-int gaji=40000, potGaji=25000;
+int gaji, potGaji;
 
 System.out.print("Masukan jumlah hari anda masuk: ");
-jmlMasuk = input.nextInt();
+jmlMasuk = input04.nextInt();
 System.out.print("Maksukan jumlah hari anda tidak masuk: ");
-jmlTdkMasuk = input.nextInt();
+jmlTdkMasuk = input04.nextInt();
+System.out.print("Masukan besaran gaji: ");
+gaji = input04.nextInt();
+System.out.print("Masukan potongan gaji: ");
+potGaji = input04.nextInt();
 
 TotGaji = (jmlMasuk*gaji)-(jmlMasuk*potGaji);
 
