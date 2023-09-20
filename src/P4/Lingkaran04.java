@@ -11,13 +11,14 @@ public class Lingkaran04 {
 
 int r;
 double keliling, luas;
+double phi = 3.14;
 
 System.out.print("Masukan jari-jari lingkaran: ");
 r = input.nextInt();
 
 
-keliling = 2*3.14*r;
-luas = 3.14*r*r;
+keliling = 2*phi*r;
+luas = phi*r*r;
 
 System.out.println(keliling);
 System.out.println(luas);
