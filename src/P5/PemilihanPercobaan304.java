@@ -2,7 +2,7 @@ package src.P5;
 
 import java.util.Scanner;
 
-public class PemilihanPercobaan3 {
+public class PemilihanPercobaan304 {
   public static void main(String[] args) {
     Scanner input04 = new Scanner(System.in);
 
