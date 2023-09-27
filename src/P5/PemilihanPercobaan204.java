@@ -21,7 +21,21 @@ public class PemilihanPercobaan204 {
 
   System.out.println("Nilai Akhir = " + total + " sehingga " + message);
 
+//Untuk menjawab pertanyaaan no 1
+if (total <= 100 && total >= 90) {
+  System.out.println("Anda mendapat nilai: A");
+} else if (total <= 89 && total >= 80) {
+  System.out.println("Anda mendapat nilai: B");
+} else if (total <= 79 && total >= 60) {
+  System.out.println("Anda mendapat nilai: C");
+} else if (total <=59 && total >= 50) {
+  System.out.println("Anda mendapat nilai: D");
+} else if (total <= 49 && total >= 0) {
+  System.out.println("Anda mendapat nilai: E");
+} else {
+  System.out.println("Nilai diluar jangkauan");
+} 
 
-  
+
   }
 }
