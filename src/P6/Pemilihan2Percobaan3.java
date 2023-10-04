@@ -26,7 +26,7 @@ public class Pemilihan2Percobaan3 {
       
     gajiBersih = (int) (penghasilan - (penghasilan * pajak));
     System.out.println("Gaji yang anda dapatkan adalah: " + gajiBersih);
-    } else if (kategori.equalsIgnoreCase("Pebisnis")) {
+    } else if (kategori.equals("Pebisnis")) {
       if (penghasilan <= 2_500_000) {
         pajak = 0.15;
       } else if (penghasilan <= 3_500_00) {
@@ -36,7 +36,7 @@ public class Pemilihan2Percobaan3 {
       }
     
     gajiBersih = (int) (penghasilan - (penghasilan * pajak));
-    System.out.println("Gaji yang anda dapatkan adalah: ");
+    System.out.println("Gaji yang anda dapatkan adalah: " + gajiBersih);
     }else {
       System.out.println("Kategori yang anda masukan salah!");
     }
