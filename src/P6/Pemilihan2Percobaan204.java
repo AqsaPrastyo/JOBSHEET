@@ -14,16 +14,18 @@ public class Pemilihan2Percobaan204 {
     double Sudut3 = input04.nextDouble();
 
 double totalSudut = Sudut1 + Sudut2 + Sudut3;
-System.out.println(totalSudut);
+System.out.println("Total Sudutnya: " + totalSudut);
 
 if (totalSudut == 180) {
   if (Sudut1 == 90 || Sudut2 == 90 || Sudut3 == 90) {
     System.out.println("Segitiga Siku-Siku");
+  } else if(Sudut1 == Sudut2 && Sudut2 == Sudut3) {
+    System.out.println("Segitiga Sama Sisi");
+  } else if (Sudut1 == Sudut2 || Sudut2 == Sudut3 || Sudut1 == Sudut3) {
+    System.out.println("Segitiga Sama Kaki");
   } else {
-    System.out.println("Bukan Segitiga Siku-Siku");
+    System.out.println("Segitiga Sembarang");
   }
-
-
 
 } else {
   System.out.println("Bukan Segitiga");
