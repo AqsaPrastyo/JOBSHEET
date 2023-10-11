@@ -31,6 +31,6 @@ if (tahun % 4 == 0) {
 
 
 
-    
+input04.close(); 
   }
 }

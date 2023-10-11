@@ -23,6 +23,6 @@ genap = (angka % 2==0) ?  "Genap" : "ganjil";
 
 System.out.println(genap);
 
-
+input04.close();
   }
 }

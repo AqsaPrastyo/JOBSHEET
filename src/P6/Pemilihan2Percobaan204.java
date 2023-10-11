@@ -49,6 +49,6 @@ if (totalSudut == 180) {
 
 
 
-
+input04.close();
   }
 }

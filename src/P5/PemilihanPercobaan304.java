@@ -39,5 +39,7 @@ public class PemilihanPercobaan304 {
         break;
     }
 
+
+    input04.close();
   } 
 }

@@ -2,7 +2,6 @@ package src.P4;
 
 import java.util.Scanner;
 
-import java.util.Scanner;
 
 public class Lingkaran04 {
   public static void main(String[] args) {
@@ -25,5 +24,7 @@ System.out.println(luas);
 
 // Perbaikan kesalahan penulisan commit! 2X .
 
+
+input.close();
   }
 }

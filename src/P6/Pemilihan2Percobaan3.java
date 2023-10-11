@@ -41,6 +41,6 @@ public class Pemilihan2Percobaan3 {
       System.out.println("Kategori yang anda masukan salah!");
     }
 
-
+    input04.close();
   }
 }

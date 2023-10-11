@@ -37,7 +37,7 @@ System.out.println("Jumlah yang anda harus dibayar adalah: " +bayar);
 
 
 
-
+input04.close();
   }
 
 }

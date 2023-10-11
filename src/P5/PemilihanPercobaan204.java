@@ -36,6 +36,6 @@ if (total <= 100 && total >= 90) {
   System.out.println("Nilai diluar jangkauan");
 } 
 
-
+input04.close();
   }
 }

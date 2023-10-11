@@ -19,6 +19,6 @@ public class ContohTipeData04 {
     System.out.println("Angka desimal\t\t\t\t\t\t: " + angakDesimal);
     //ContohTipeData Done
 
-
+    
   }
 }

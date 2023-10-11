@@ -18,5 +18,7 @@ public class Segitiga04 {
         System.out.println("Luas Segitiga " + luas + " meter persegi");  
       
        // Segitiga Done
+
+       sc.close();
     }
 }
