@@ -31,10 +31,22 @@ if (jabatan.equalsIgnoreCase("direktur")) {
 } else if (jabatan.equalsIgnoreCase("manajer")) {
 gajiLembur = jmlJamLembur * 100000;
 } else if (jabatan.equalsIgnoreCase("karyawan")) { 
-  gajiLembur = jmlJamLembur * 75000; }
+  gajiLembur = jmlJamLembur * 75000; 
+} else {
+  System.out.println("Jabatan invalid");
+  i--;
+  continue;
+}
 totalGajiLembur += gajiLembur;
 }
 System.out.println("Total gaji lembur: " + totalGajiLembur);
+
+
+
+
+
+
+
 
 
 
