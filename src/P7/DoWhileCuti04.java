@@ -27,6 +27,8 @@ if (konfirmasi.equalsIgnoreCase("y")) {
   
     }
 
+  }else {
+    break;
   }
 
 
