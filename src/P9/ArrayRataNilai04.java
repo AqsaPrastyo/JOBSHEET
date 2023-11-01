@@ -37,10 +37,10 @@ for (int i = 0; i < nilaiMhs.length; i++) {
 
 rata2 = total/nilaiMhs.length;
 // System.out.println("Rata-rata nilai : "+rata2);
-// System.out.println("Banyak mahasiswa yang lulus : "+banyakLulus);
-System.out.println("Rata-rata nilai lulus : "+rata2Lulus/banyakLulus);
-// System.out.println("Banyak mahasiswa yang tidak lulus : "+banyakTidakLulus);
-System.out.println("Rata-rata nilai tidak lulus : "+rata2TidakLulus/banyakTidakLulus);
+System.out.println("Banyak mahasiswa yang lulus : "+banyakLulus);
+// System.out.println("Rata-rata nilai lulus : "+rata2Lulus/banyakLulus);
+System.out.println("Banyak mahasiswa yang tidak lulus : "+banyakTidakLulus);
+// System.out.println("Rata-rata nilai tidak lulus : "+rata2TidakLulus/banyakTidakLulus);
 
 
 
