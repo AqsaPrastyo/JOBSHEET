@@ -7,10 +7,9 @@ public class Tugas104 {
     Scanner input04 = new Scanner(System.in);
 double rata2, total = 0;
 
-
 System.out.print("Masukan jumlah Mahasiswa: ");
 int n = input04.nextInt();
-
+//arraynya
 int[] arrayNilai = new int[n];
 for (int i = 0; i < arrayNilai.length; i++) {
   System.out.print("Masukan nilai mahasiswa ke-" + (i + 1)+ " : ");
@@ -19,8 +18,7 @@ for (int i = 0; i < arrayNilai.length; i++) {
 
 int nilaiTertinggi = arrayNilai[0];
 int nilaiTerendah = arrayNilai[0];
-
-
+// Buat cari nilai max dan min
 for (int i = 0; i < arrayNilai.length; i++) {
   if (arrayNilai[i] > nilaiTertinggi) {
     nilaiTertinggi = arrayNilai[i];
@@ -28,14 +26,11 @@ for (int i = 0; i < arrayNilai.length; i++) {
     nilaiTerendah = arrayNilai[i];
   }
 }
-
-
+//Buat ngeloop total
    for (int i = 0; i < arrayNilai.length; i++) {
     total += arrayNilai[i];
   }
-
-
-   
+// Outputnya Gess
     rata2 = total/arrayNilai.length;
   System.out.println("Rata-rata nilai: " +rata2);
   System.out.println("Nilai tertinggi: " + nilaiTertinggi);
