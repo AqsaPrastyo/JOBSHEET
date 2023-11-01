@@ -35,7 +35,7 @@ for (int i = 0; i < arrayint.length; i++) {
 System.out.print("Masukan key yang ingin anda cari : ");
 int key = input04.nextInt();
 
-int hasil =0;
+int hasil = -1;
 for (int i = 0; i < arrayint.length; i++) {
   if (arrayint[i] == key) {
     hasil = i;
@@ -43,22 +43,20 @@ for (int i = 0; i < arrayint.length; i++) {
   }
 }
 
-//Untuk menjawab pertanyaan no 2
-if (arrayint[hasil]== key) {
-  System.out.println("Key ada dalam array pada posisi indeks ke-" +hasil);
-}else{
-  System.out.println("Key tidak ditemukan dalam array");
-}
-
-
+ //Untuk menjawab pertanyaan no 2
+// if (arrayint[hasil]== key) {
+//   System.out.println("Key ada dalam array pada posisi indeks ke-" +hasil);
+// }else{
+//   System.out.println("Key tidak ditemukan dalam array");
+// }
 
 
  //Untuk menjawab pertanyaan no 3
-// if (hasil !=-1) {
-//   System.out.println("Key ada dalam array pada posisi indeks ke-" +hasil);
-// } else {
-//   System.out.println("Key tidak ditemukan dalam array");
-// }
+if (hasil !=-1) {
+  System.out.println("Key ada dalam array pada posisi indeks ke-" +hasil);
+} else {
+  System.out.println("Key tidak ditemukan dalam array");
+}
 
 
 
