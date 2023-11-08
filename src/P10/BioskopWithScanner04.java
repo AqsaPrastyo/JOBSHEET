@@ -82,7 +82,7 @@ if (next.equalsIgnoreCase("n")) {
  for (int i = 0; i < penonton.length; i++) {
         for (int j = 0; j < penonton[j].length; j++) {
           if (penonton != null) {
-            
+            penonton[i][j] = "****";
           System.out.println("Baris: " + (i + 1) + ", Kolom: " + (j + 1) + ", Nama: " + penonton[i][j]);  
           }
           
