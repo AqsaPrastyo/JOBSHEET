@@ -48,10 +48,17 @@ int baris = sc04.nextInt();
 int kolom = sc04.nextInt();
 
 if (baris > 0 && baris <= penonton.length && kolom > 0 && kolom <= penonton[0].length) {
+  
+    if (penonton[baris - 1][kolom - 1] == null) {
   penonton[baris - 1][kolom - 1] = nama;
 } else {
+  System.out.println("Kursi sudah terisi oleh penonton lainnya. Silakan masukkan baris dan kolom kembali.");
+}
+
+ }else {
   System.out.println("Nomor baris/kolom tidak tersedia!");
 }
+
 
 
 
@@ -69,14 +76,20 @@ if (next.equalsIgnoreCase("n")) {
  case 2:
  while (true) {
   
+
+
+
  for (int i = 0; i < penonton.length; i++) {
         for (int j = 0; j < penonton[j].length; j++) {
           if (penonton != null) {
+            
           System.out.println("Baris: " + (i + 1) + ", Kolom: " + (j + 1) + ", Nama: " + penonton[i][j]);  
           }
           
         }
 }
+
+
 
     break;
 }
