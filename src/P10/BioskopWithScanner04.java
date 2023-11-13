@@ -51,7 +51,7 @@ if (baris > 0 && baris <= penonton.length && kolom > 0 && kolom <= penonton[0].l
   
     if (penonton[baris - 1][kolom - 1] == null) {
   penonton[baris - 1][kolom - 1] = nama;
-} else {
+} else {  
   System.out.println("Kursi sudah terisi oleh penonton lainnya. Silakan masukkan baris dan kolom kembali.");
 }
 
@@ -64,7 +64,7 @@ if (baris > 0 && baris <= penonton.length && kolom > 0 && kolom <= penonton[0].l
 
 System.out.print("Input penonton lainnya? (y/n): ");
 String next = sc04.next();
-
+ 
 
 if (next.equalsIgnoreCase("n")) {
   break;
