@@ -19,16 +19,24 @@ for (int i = 0; i < ness.length; i++) {
   System.out.println( );
 }
 
-for (int i = 0; i < ness.length; i++) {
-  System.out.print("Kota ke-" + (i + 1) + ": ");
-  for (int j = 0; j < ness[0].length; j++) {
-    System.out.print(ness[i][j] + " ");
+// for (int i = 0; i < ness.length; i++) {
+//   System.out.print("Kota ke-" + (i + 1) + ": ");
+//   for (int j = 0; j < ness[0].length; j++) {
+//     System.out.print(ness[i][j] + " ");
     
-  }
-  System.out.println( );
-}
+//   }
+//   System.out.println( );
+// }
 
 
+for (int i = 0; i < ness.length; i++) {
+  
+      System.out.print("Kota ke-" + (i + 1) + ": ");
+      for (double hari : ness[i]) {
+        System.out.print(hari + " ");
+      }
+      System.out.println();
+    }
 
 
   }
