@@ -9,6 +9,7 @@ public class ArrayDua04 {
     int data [][] = new int[4][4];
     int jam[] = {3, 6, 9, 12};
     int min[] = {100, 100, 100, 100};
+    int max[] = {0, 0, 0, 0};
     double total [] = {0, 0, 0, 0};
     double rata[] = {0, 0, 0, 0,};
 
@@ -22,6 +23,10 @@ public class ArrayDua04 {
                 if (min[j] > data [i][j]) {
                     min[j] = data [i][j];
                 }
+                if(max[j] < data[i][j]){
+                   max[j] = data[i][j];    
+
+                }
                 total[j] += data [i][j];
                 break;
                 case 1:
@@ -29,6 +34,10 @@ public class ArrayDua04 {
                 data[i][j] = sc04.nextInt();
                 if (min[j] > data [i][j]) {
                     min[j] = data [i][j];
+                }
+                if(max[j] < data[i][j]){
+                   max[j] = data[i][j];    
+
                 }
                 total[j] += data [i][j];
                 break;
@@ -38,6 +47,10 @@ public class ArrayDua04 {
                 if (min[j] > data [i][j]) {
                     min[j] = data [i][j];
                 }
+                if(max[j] < data[i][j]){
+                   max[j] = data[i][j];    
+
+                }
                 total[j] += data [i][j];
                 break;
                 case 3 :
@@ -45,6 +58,10 @@ public class ArrayDua04 {
                 data[i][j] = sc04.nextInt();
                 if (min[j] > data [i][j]) {
                     min[j] = data [i][j];
+                }
+                if(max[j] < data[i][j]){
+                   max[j] = data[i][j];    
+
                 }
                 total[j] += data [i][j];
                 break;    
