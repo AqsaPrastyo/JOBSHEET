@@ -30,12 +30,15 @@ for (int i = 0; i < ness.length; i++) {
 
 
 for (int i = 0; i < ness.length; i++) {
-  
+  double sum = 0;
       System.out.print("Kota ke-" + (i + 1) + ": ");
       for (double hari : ness[i]) {
         System.out.print(hari + " ");
+        sum += hari;
       }
+      double rata2 = sum / ness[0].length;
       System.out.println();
+      System.out.println("Rata-rata ke-" + (i + 1) + (": ") + rata2);
     }
 
 
