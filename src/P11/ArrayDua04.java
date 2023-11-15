@@ -64,7 +64,9 @@ System.out.println("----------------");
 System.out.printf("Rata-rata suhu: %.2f\n", rata[0]);
 System.out.printf("Persentase kelembaban terendah: %s\n", min[1]);
 
-
+for (int i = 0; i < data.length; i++) {
+    System.out.printf("Jam %s Kecepatan angin %s\n", jam[i], data[i][2] );
+}
 
 
 
