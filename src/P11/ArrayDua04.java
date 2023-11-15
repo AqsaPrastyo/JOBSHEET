@@ -85,6 +85,7 @@ for (int i = 0; i < data.length; i++) {
     System.out.printf("Jam %s Kecepatan angin %s\n", jam[i], data[i][2] );
 }
 
+System.out.printf("Peresentase index UV tertinggi : %s\n", max[3]);
 
 
 
