@@ -5,7 +5,16 @@ public class NilaiTugas {
 
 
     public static void main(String[] args) {
-        int[][] nilaiTugas = new int[5][7]; 
+        Scanner scanner = new Scanner(System.in);
+
+       
+        System.out.print("Masukkan jumlah mahasiswa: ");
+        int jumlahMahasiswa = scanner.nextInt();
+
+        System.out.print("Masukkan jumlah tugas: ");
+        int jumlahTugas = scanner.nextInt();
+
+        int[][] nilaiTugas = new int[jumlahMahasiswa][jumlahTugas]; 
         inputNilaiMahasiswa(nilaiTugas);   
         tampilkanNilaiMahasiswa(nilaiTugas); 
         int hariTertinggi = cariHariTertinggi(nilaiTugas); 
@@ -57,7 +66,7 @@ public class NilaiTugas {
         return hariTertinggi;
     }
 
-    
+   
     public static void tampilkanMahasiswaTertinggi(int[][] nilaiTugas) {
         int nilaiTertinggi = 0;
         int mahasiswaTertinggi = 0;
